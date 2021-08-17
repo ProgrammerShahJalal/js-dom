@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #test {
+            background-color: burlywood;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to my blog website</h1>
+    </header>
+    <main>
+        <article class="blog">
+            <h2>My Asesome Blog</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim illum, beatae culpa asperiores blanditiis
+                consectetur explicabo deserunt ducimus voluptate dolorem veniam rem, reiciendis rerum officia laudantium
+                repellat quisquam ut quo.</p>
+        </article>
+        <article class="blog">
+            <h2 id="test">My Asesome Blog</h2>
+            <p>Vero, nulla nisi. Sunt vel quibusdam magnam reprehenderit distinctio repudiandae quae dolor consectetur
+                perspiciatis nisi, aperiam repellendus! Eius molestias exercitationem omnis voluptas accusantium saepe
+                numquam, ab cupiditate, molestiae ratione quasi.</p>
+        </article>
+        <article class="blog">
+            <h2 id="testy">My Asesome Blog</h2>
+            <p>Culpa nam pariatur eveniet ducimus deserunt repellat similique cupiditate animi explicabo, voluptatem
+                saepe? A quas, soluta iure amet sapiente ea eaque maiores molestiae libero labore eveniet est iste
+                accusamus iusto.</p>
+        </article>
+        <script>
+            console.log(document);
+            const blogs = document.getElementsByClassName('blog');
+            for (const blog of blogs) {
+                console.log(blog);
+            }
+        </script>
+    </main>
+</body>
+
+</html>
